@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.2
-	github.com/bombsimon/logrusr v1.0.0
+	github.com/bombsimon/logrusr v1.1.0
 	github.com/databus23/helm-diff v3.1.1+incompatible
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/gofrs/flock v0.8.0
@@ -16,7 +16,7 @@ require (
 	github.com/lempiy/dgraph v0.0.0-20190713130529-88f0f7cdb48e
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/otiai10/copy v1.6.0 // indirect
+	github.com/otiai10/copy v1.6.0
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/pflag v1.0.5
