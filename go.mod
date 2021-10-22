@@ -16,7 +16,7 @@ require (
 	github.com/lempiy/dgraph v0.0.0-20190713130529-88f0f7cdb48e
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/otiai10/copy v1.6.0 // indirect
+	github.com/otiai10/copy v1.6.0
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/pflag v1.0.5
@@ -32,6 +32,6 @@ require (
 	k8s.io/cli-runtime v0.21.0
 	k8s.io/client-go v0.21.0
 	k8s.io/helm v2.17.0+incompatible // indirect
-	k8s.io/klog/v2 v2.8.0
+	k8s.io/klog/v2 v2.30.0
 	rsc.io/letsencrypt v0.0.3 // indirect
 )
