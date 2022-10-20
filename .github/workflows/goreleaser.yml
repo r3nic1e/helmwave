@@ -164,7 +164,7 @@ jobs:
         uses: goreleaser/goreleaser-action@v3
         with:
           version: latest
-          args: release --skip-docker --skip-validate --rm-dist --release-notes .changes/${{ needs.tagger.outputs.tag }}.md
+          args: release --skip-docker --skip-validate --rm-dist --release-notes ${{ needs.tagger.outputs.tag }}.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HOMEBREW_TAP_GITHUB_TOKEN: ${{ secrets.CR_PAT }}
