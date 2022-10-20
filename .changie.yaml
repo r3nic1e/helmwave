@@ -24,6 +24,7 @@ kinds:
   - label: Breaking change
   - label: Fixed
   - label: CI
+  - label: Other
 
 newlines:
   afterChangelogHeader: 2
